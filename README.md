@@ -145,6 +145,22 @@ Below is the directory structure for the project:
 ```
 CNN_project/
 ├── data/                     # Directory for datasets
+│   ├── MNIST/                # MNIST dataset
+│   │   ├── raw/              # Raw dataset files
+│   │   │   ├── train-images.idx3-ubyte
+│   │   │   ├── train-labels.idx1-ubyte
+│   │   │   ├── t10k-images.idx3-ubyte
+│   │   │   ├── t10k-labels.idx1-ubyte
+│   ├── FMNIST/               # FMNIST dataset
+│   │   ├── raw/              # Raw dataset files
+│   │   │   ├── train-images-idx3-ubyte
+│   │   │   ├── train-labels-idx1-ubyte
+│   │   │   ├── t10k-images-idx3-ubyte
+│   │   │   ├── t10k-labels-idx1-ubyte
+│   ├── CIFAR-10/             # CIFAR-10 dataset
+│   │   ├── raw/              # Raw dataset files
+│   │   │   ├── cifar-10-batches-bin/
+│   │   │   ├── cifar-10-python.tar.gz
 ├── models/                   # Directory for CNN model architectures
 │   ├── lenet.py              # LeNet-5 implementation
 │   ├── alexnet.py            # AlexNet implementation
@@ -173,5 +189,6 @@ CNN_project/
 ├── README.md                 # Project documentation
 ├── LICENSE                   # (Optional) License file
 └── .gitignore                # Git ignore file
+
 ```
 
