@@ -184,11 +184,13 @@ CNN_project/
 │   ├── data_loader.py        # Dataset loading and preprocessing
 │   ├── metrics.py            # Functions for evaluation metrics
 │   ├── visualization.py      # Functions for plotting results
+├── train.py                  # Training script for model training
 ├── main.py                   # Main script to run the project
 ├── requirements.txt          # Dependencies for the project
 ├── README.md                 # Project documentation
 ├── LICENSE                   # (Optional) License file
 └── .gitignore                # Git ignore file
+
 
 ```
 
